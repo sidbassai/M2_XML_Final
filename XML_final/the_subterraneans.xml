@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="duluozlegend.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="duluozlegend.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Subterraneans</title>
+                <author>Jack Kerouac</author>
+                <respStmt>
+                    <persName><forename>Sidonie</forename><surname>Bassaïstéguy</surname></persName>
+                    <resp>encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition> <date when="1972">1972</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>John Sampas, the Estate of Jack Kerouac</authority>
+                <availability status="restricted">
+                    <licence>
+                        <p>copyright</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Kerouac, Jack</author>
+                        <title >The Subterraneans</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>Grove Press</publisher>
+                            <date when="1958">1958</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <text type="novel">
+        <front>
+            <div type="editorial">
+                <head type="section_title">List of characters</head>
+                <listPerson>
+                    <person xml:id="JK">
+                        <persName><forename>Jack</forename><surname>Kerouac</surname></persName>
+                        <persName type="alias"><forename>Leo</forename><surname>Percepied</surname></persName>
+                        <idno type="wikidata">Q160534</idno>
+                    </person>
+                    <person xml:id="AG">
+                        <persName><forename>Allen</forename><surname>Ginsberg</surname></persName>
+                        <persName type="alias"
+                            ><forename>Adam</forename><surname>Moorad</surname></persName>
+                        <idno type="wikidata">Q6711</idno>
+                    </person>
+                    <person xml:id="AR">
+                        <persName><forename>Anton</forename><surname>Rosenberg</surname></persName>
+                        <persName type="alias"
+                            ><forename>Julian</forename><surname>Alexander</surname></persName>
+                    </person>
+                    <person xml:id="JN">
+                        <persName><forename>Jerry</forename><surname>Newman</surname></persName>
+                        <persName type="alias"
+                            ><forename>Larry</forename><surname>O'Hara</surname></persName>
+                    </person>
+                    <person xml:id="LC">
+                        <persName><forename>Lucian</forename><surname>Carr</surname></persName>
+                        <persName type="alias"
+                            ><forename>Sam</forename><surname>Vedder</surname></persName>
+                        <idno type="wikidata">Q2470845</idno>
+                    </person>
+                    <person xml:id="AL">
+                        <persName><forename>Alene</forename><surname>Lee</surname></persName>
+                        <persName type="alias"
+                            ><forename>Mardou</forename><surname>Fox</surname></persName>
+                        <idno type="wikidata">Q4716139</idno>
+                    </person>
+                </listPerson>
+            </div>
+            <div type="editorial">
+                <head type="section_title">List of places</head>
+                <listPlace>
+                    <place xml:id="NY" type="city">
+                        <placeName>New York</placeName>
+                    </place>
+                </listPlace>
+            </div>
+        </front>
+        
+        <body>
+            <head type="title">The Subterraneans</head>
+            <div1 type="part" n="1">
+                <div2 type="chapter" n="1">
+                    <head>1</head>
+                    <p>ONCE I WAS YOUNG and had so much more orientation and could talk with nervous intelligence about everything and with clarity and without as much literary preambling as this; in other words this is the story of an unself-confident man, at the same time of an egomaniac, naturally, facetious won’t do—just to start at the beginning and let the truth seep out, that’s what I’ll do—. It began on a warm summernight—ah, she was sitting on a fender with <persName ref="#AR"><forename>Julien</forename> <surname>Alexander</surname></persName> who is … let me begin with the history of the subterraneans of <placeName ref="#NY">San Francisco</placeName>…</p>
+                        <p><persName ref="#AR"><forename>Julien</forename> <surname>Alexander</surname></persName> is the angel of the subterraneans, the subterraneans is a name invented by <persName ref="#AG"><forename>Adam</forename> <surname>Moorad</surname></persName> who is a poet and friend of mine who said “They are hip without being slick, they are intelligent without being corny, they are intellectual as hell and know all about Pound without being pretentious or talking too much about it, they are very quiet, they are very Christlike.” <persName ref="#AR"><forename>Julien</forename></persName> certainly is Christlike. I was coming down the street with <persName ref="#JN"><forename>Larry</forename> <surname>O’Hara</surname></persName> old drinking buddy of mine from all the times in <placeName ref="#NY">San Francisco</placeName> in my long and nervous and mad careers I’ve gotten drunk and in fact cadged drinks off friends with such “genial” regularity nobody really cared to notice or announce that I am developing or was developing, in my youth, such bad freeloading habits though of course they did notice but liked me and as <persName ref="#LC"><forename>Sam</forename></persName> said “Everybody comes to you for your gasoline boy, that’s some filling station you got there” or say words to that effect—old <persName ref="#JN"><forename>Larry</forename> <surname>O’Hara</surname></persName> always nice to me, a crazy Irish young businessman of <placeName ref="#NY">San Francisco</placeName> with Balzacian backroom in his bookstore where they’d smoke tea and talk of the old days of the great Basie band or the days of the great Chu Berry—of whom more anon since she got involved with him too as she had to get involved with everyone because of knowing me who am nervous and many leveled and not in the least one souled—not a piece of my pain has showed yet—or suffering—Angels, bear with me—I’m not even looking at the page but straight ahead into the sadglint of my wallroom and at a Sarah Vaughan Gerry Mulligan Radio KROW show on the desk in the form of a radio, in other words, they were sitting on the fender of a car in front of the Black Mask bar on Montgomery Street, <persName ref="#AR"><forename>Julien</forename> <surname>Alexander</surname></persName> the Christlike unshaved thin youthful quiet strange almost as you or as <persName ref="#AG"><forename>Adam</forename></persName> might say apocalyptic angel or saint of the subterraneans, certainly star (now), and she, <persName ref="#AL"><forename>Mardou</forename> <surname>Fox</surname></persName>, whose face when first I saw it in Dante’s bar around the corner made me think, “By God, I’ve got to get involved with that little woman”.</p>
+                </div2>
+            </div1>
+        </body>
+        
+        <back>
+            <div type="editorial">
+                <head type="section_title">Other books in the Duluoz Legend</head>
+                <listBibl>
+                    <bibl xml:id="tdl_otr">
+                        <title>On the Road</title>
+                        <date when="1957">First published 1957</date>
+                    </bibl>
+                    <bibl xml:id="tdl_ts">
+                        <title>The Subterraneans</title>
+                        <date when="1958">First published 1958</date>
+                    </bibl>
+                    <bibl xml:id="tdl_voc">
+                        <title>Visions of Cody</title>
+                        <date when="1972">First published 1972</date>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
+
+
