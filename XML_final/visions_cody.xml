@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="duluozlegend.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="duluozlegend.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Visions of Cody</title>
+                <author>Jack Kerouac</author>
+                <respStmt>
+                    <persName><forename>Sidonie</forename><surname>Bassaïstéguy</surname></persName>
+                    <resp>encoding</resp>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition> <date when="1972">1972</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <authority>John Sampas, the Estate of Jack Kerouac</authority>
+                <availability status="restricted">
+                    <licence>
+                        <p>copyright</p>
+                    </licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <monogr>
+                        <author>Kerouac, Jack</author>
+                        <title >Visions of Cody</title>
+                        <imprint>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>McGraw Hill</publisher>
+                            <date when="1972">1972</date>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <text type="novel">
+        <front>
+            <div type="editorial">
+                <head type="section_title">List of characters</head>
+                <listPerson>
+                    <person xml:id="JK">
+                        <persName><forename>Jack</forename><surname>Kerouac</surname></persName>
+                        <persName type="alias"><forename>Jack</forename><surname>Duluoz</surname></persName>
+                        <idno type="wikidata">Q160534</idno>
+                    </person>
+                    <person xml:id="NC">
+                        <persName><forename>Neal</forename><surname>Cassady</surname></persName>
+                        <persName type="alias"
+                            ><forename>Cody</forename><surname>Pomeray</surname></persName>
+                        <idno type="wikidata">Q167518</idno>
+                    </person>
+                    <person xml:id="AG">
+                        <persName><forename>Allen</forename><surname>Ginsberg</surname></persName>
+                        <persName type="alias"
+                            ><forename>Irwin</forename><surname>Garden</surname></persName>
+                        <idno type="wikidata">Q6711</idno>
+                    </person>
+                </listPerson>
+            </div>
+            <div type="editorial">
+                <head type="section_title">List of places</head>
+                <listPlace>
+                    <place xml:id="NY" type="city">
+                        <placeName>New York</placeName>
+                    </place>
+                    <place xml:id="CA" type="state">
+                        <placeName>California</placeName>
+                    </place>
+                </listPlace>
+            </div>
+            <div><p>To America, whatever that is</p></div>
+        </front>
+        
+        <body>
+            <head type="title">Visions of Cody</head>
+            <div1 type="part" n="1">
+                <div2 type="chapter" n="1">
+                    <head>1</head>
+                    <p>IN THE AUTUMN OF <date when="1951">1951</date> I began thinking of <persName ref="#NC"><forename>Cody</forename> <surname>Pomeray</surname></persName>, thinking of <persName ref="#NC"><forename>Cody</forename><surname>Pomeray</surname></persName>. We had been great buddies on the road. I was in <placeName ref="#NY">New York</placeName> and I wanted to go to <placeName ref="#CA">California</placeName>and see him, but I had no money. I’m in an old El station on Third Avenue and 47th, sitting in wooden sunken-seat benches along the walls—the Porter sign in the door is almost all faded</p>
+                    <p>Main thing, <persName ref="#NC"><forename>Cody</forename></persName> had given up and was following not me, but anybody sweet and good and kind in the world, like he’d died and came over to see me before his departure, dammit, into eternity. This was a dream last night. And <persName ref="#NC"><forename>Cody</forename></persName> let others do talking, for once was a smiling and bemused listener, like <persName ref="#AG"><forename>Irwin</forename></persName> or everybody—He said something: “I’ll only be back for a short time but while I’m here you’ve got to take care of me, understand?—you’ve got to see I don’t get lonely, I don’t know anybody in that cafeteria of yours on Fourth Street and Bowery, I don’t ever go to those high balcony movies on V-Square, Brooklyn is too mad, the Els confuse me, the canals, the little white houses, the ships east or west and that pump at the foot of the hill where you peel potatoes I have nothing to do with it—I’m in your hands entirely as you were in Frisco when I jumped back in the car going fullspeed—I want to meet people and gurls—take me to the white one, the soft one you had on your couch there—Oh this is a cold dark town, man.”</p>
+            
+               </div2>
+            </div1>
+        </body>
+        
+        <back>
+            <div type="editorial">
+                <head type="section_title">Other books in the Duluoz Legend</head>
+                <listBibl>
+                    <bibl xml:id="tdl_otr">
+                        <title>On the Road</title>
+                        <date when="1957">First published 1957</date>
+                    </bibl>
+                    <bibl xml:id="tdl_ts">
+                        <title>The Subterraneans</title>
+                        <date when="1958">First published 1958</date>
+                    </bibl>
+                    <bibl xml:id="tdl_voc">
+                        <title>Visions of Cody</title>
+                        <date when="1972">First published 1972</date>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
+
