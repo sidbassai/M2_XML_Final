@@ -75,12 +75,6 @@
             
             <!-- Rule 1: Constraining the use of an attribute and its value(s) -->
             <elementSpec ident="place" mode="change">
-               <content>
-                  <sequence>
-                     <elementRef key="placeName"/>
-                     <elementRef key="alias"/>
-                  </sequence>
-               </content>
                <attList>
                   <attDef ident="type" mode="change">
                      <valList mode="add" type="open">
